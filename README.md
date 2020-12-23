@@ -17,3 +17,5 @@
 - [Lab 8v1](python/lab8v1.py)
 - [Lab 8v2](python/lab8v2.py)
 - [Lab 8v3](python/lab8v3.py)
+- [Lab 9v1](python/lab9v1.py)
+- [Lab 9v2](python/lab9v2.py)
