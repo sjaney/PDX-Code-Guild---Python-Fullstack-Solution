@@ -21,7 +21,9 @@ words = book.split() # split into a list of words
 word_list = {} # create empty dict
 
 for word in words:
-    word_list[word] = word_list.get(word, 0) + 1
+    if word not in word_list:
+        word_list[word] = 0
+    word_list[word] += 1
 
 # Print the most frequent top 10 out with their counts. You can do that with the code below.
 
