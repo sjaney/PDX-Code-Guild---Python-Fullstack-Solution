@@ -11,12 +11,18 @@ def use_requests():
 
 book = use_requests()
 
-no_punctuation = book.translate(str.maketrans('', '',string.punctuation)) # strip punctuation 
+'''
+str.maketrans creates a translation table containing the mapping
+between two characters. To remove all punctuations str.maketrans('', '', string.punctuation) 
+creates mapping from empty string to empty string, and punctuations to None.
+'''
+no_punctuation = book.translate(str.maketrans('', '',string.punctuation)) 
 
-words = book.split() # split into a list of words
 
-# Your dictionary will have words as keys and counts as values. If a word isn't in your dictionary yet, add it with a count of 1. 
-# If it is, increment its count.
+words = no_punctuation.split() # split into a list of words
+
+''' Your dictionary will have words as keys and counts as values. If a word isn't in your dictionary yet, add it with a count of 1. 
+If it is, increment its count.'''
 
 word_list = {} # create empty dict
 
