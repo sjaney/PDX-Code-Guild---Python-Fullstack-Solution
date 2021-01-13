@@ -33,9 +33,7 @@ always round up, and if the result is higher than 14, it should be set to 14.
 '''
 # get number of sentences
 
-sentences = book.count('.')
-sentences += book.count('!') 
-sentences += book.count('?')
+sentences = book.count('.') + book.count('!') + book.count('?')
 
 # get number of characters
 
