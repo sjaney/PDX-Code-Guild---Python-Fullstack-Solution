@@ -1,5 +1,5 @@
 # Lab 18 - ATM
-import string
+
 class ATM:
     def __init__(self, balance = 0, apr = 0.001):
         self.balance = balance
