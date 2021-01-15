@@ -27,3 +27,5 @@
 - [Lab 16](python/lab16.py)
 - [Lab 17](python/lab17.py)
 - [Lab 18](python/lab18.py)
+- [Lab 19](python/lab19.py)
+  
