@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <!-- Vue.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.common.dev.min.js"
+    integrity="sha512-PkyFg1MEb/EwsFAqzqvZqWdMT4ItV+E1NgOtfBC9X8UecJcO9bwirD+v/9tJwci4wTNHdNYBk4ev6ceb1hy73g=="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+    integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+    crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Cats</h1>
+        <select v-model="catCategory" name="" id="">
+            <option v-for="category in category" :value="category.id">{{ category.name }}</option>
+        </select>
+        <button v-on:click="submit" class="btn">Get Cats</button>
+        <img v-bind:src="imgUrl" alt="Cat Image">
+    </div>
+
+</body>
+</html>
