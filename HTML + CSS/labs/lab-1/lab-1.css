@@ -1,0 +1,60 @@
+*{
+    margin: 30;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20;
+    margin-bottom: 20;
+    justify-content: flex-start;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+    color:#000000;
+    -webkit-text-fill-color:#ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.info{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    margin-left: 350px;
+    margin-top: 65px;
+}
+
+.quote{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+
+a{
+    color: #9B6B16;
+}
+
+body{
+    background-image: url(images/paperplanemaking.jpeg);
+    background-size: cover;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.solid{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+        /* color: #ffffff; */
+
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #ffffff;
+}
